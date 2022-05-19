@@ -1,5 +1,5 @@
 
-def print_list_tuple():
+def print_list_tuple() -> None:
     dif_type_list = [123, 'aaa', None]
     print("List: {}".format(dif_type_list))
     for elem in dif_type_list:
