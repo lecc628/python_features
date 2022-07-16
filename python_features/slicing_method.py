@@ -17,3 +17,10 @@ print("letters[0:] =", letters[0:])  # "abcdef" because it is equivalent to lett
 print("letters[:5] =", letters[:5])  # "abcde" because it is equivalent to letters[0:5]
 print("letters[0:5:2] =", letters[0:5:2])  # "ace"
 print()
+
+print("letters[-3:5] =", letters[-3:5])  # "de" because it is equivalent to letters[-3:5:1]
+print("letters[-3:-5] =", letters[-3:-5])  # "" because it is equivalent to letters[-3:-5:1]
+print("letters[-3:-5:-1] =", letters[-3:-5:-1])  # "dc"
+print("letters[-3:-6:-1] =", letters[-3:-6:-1])  # "dcb"
+print("letters[-1:-len(letters)-1:-1] =", letters[-1:-len(letters)-1:-1])  # "fedcba"
+print()
