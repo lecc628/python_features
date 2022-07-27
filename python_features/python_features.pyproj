@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8f0f2c5d-1387-4a95-9386-62d3241802fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>try_except_else_finally.py</StartupFile>
+    <StartupFile>with_statement.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,7 @@
     <Compile Include="multiply_sequence_by_integer.py" />
     <Compile Include="slicing_method.py" />
     <Compile Include="try_except_else_finally.py" />
+    <Compile Include="with_statement.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
