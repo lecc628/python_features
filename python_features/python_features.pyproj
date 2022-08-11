@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8f0f2c5d-1387-4a95-9386-62d3241802fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sequence_concat_and_repetition_operator.py</StartupFile>
+    <StartupFile>sequence_concat_and_repetition_operators.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -30,7 +30,7 @@
     <Compile Include="iterable_packing_unpacking.py" />
     <Compile Include="print_list_tuple.py" />
     <Compile Include="multiply_sequence_by_integer.py" />
-    <Compile Include="sequence_concat_and_repetition_operator.py" />
+    <Compile Include="sequence_concat_and_repetition_operators.py" />
     <Compile Include="slicing_method.py" />
     <Compile Include="try_except_else_finally.py" />
     <Compile Include="type_object_equals_class_object.py" />
