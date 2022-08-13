@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8f0f2c5d-1387-4a95-9386-62d3241802fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sequence_concat_and_repetition_operators.py</StartupFile>
+    <StartupFile>assert_statement.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
