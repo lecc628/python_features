@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8f0f2c5d-1387-4a95-9386-62d3241802fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>assert_statement.py</StartupFile>
+    <StartupFile>in_python_each_thing_is_an_object.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -27,6 +27,7 @@
     <Compile Include="for_loop.py" />
     <Compile Include="enumerate_function.py" />
     <Compile Include="help_function.py" />
+    <Compile Include="in_python_each_thing_is_an_object.py" />
     <Compile Include="iterable_packing_unpacking.py" />
     <Compile Include="print_list_tuple.py" />
     <Compile Include="multiply_sequence_by_integer.py" />
