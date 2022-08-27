@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8f0f2c5d-1387-4a95-9386-62d3241802fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>object_type.py</StartupFile>
+    <StartupFile>exec_function.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Compile Include="assert_statement.py" />
     <Compile Include="built_in_numeric_data_types.py" />
     <Compile Include="compare_f_string_and_str_format.py" />
+    <Compile Include="exec_function.py" />
     <Compile Include="for_loop.py" />
     <Compile Include="enumerate_function.py" />
     <Compile Include="help_function.py" />
