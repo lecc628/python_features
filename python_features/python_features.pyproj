@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8f0f2c5d-1387-4a95-9386-62d3241802fa</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>comprehensions.py</StartupFile>
+    <StartupFile>bytes_fuction.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,7 @@
   <ItemGroup>
     <Compile Include="assert_statement.py" />
     <Compile Include="built_in_numeric_data_types.py" />
+    <Compile Include="bytes_fuction.py" />
     <Compile Include="compare_f_string_and_str_format.py" />
     <Compile Include="complex_number.py" />
     <Compile Include="comprehensions.py" />
