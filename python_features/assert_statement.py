@@ -1,7 +1,10 @@
+'''Contains examples about assert statement.'''
 
-# - The assertions are evaluated if the __debug__ constant value is True. By default its value is True.
-# - If you execute the interpreter with the option -O (optimization), then the __debug__ constant value
-# is False and the assertions are ignored.
+
+# - The assertions are evaluated if the __debug__ constant value is True.
+# By default its value is True.
+# - If you execute the interpreter with the option -O (optimization), then
+# the __debug__ constant value is False and the assertions are ignored.
 
 MIN_VALUE: int = 8
 
@@ -14,4 +17,5 @@ assert a > MIN_VALUE, f'The value of "a" must be greater than {MIN_VALUE}.'
 
 if __debug__:
     if not a > MIN_VALUE:
-        raise AssertionError(f'The value of "a" must be greater than {MIN_VALUE}.')
+        raise AssertionError(
+            f'The value of "a" must be greater than {MIN_VALUE}.')

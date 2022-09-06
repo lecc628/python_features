@@ -1,6 +1,7 @@
+'''Compares f-string and str format.'''
 
-def compare_f_string_and_str_format(num = 123.456, width = 6, decimals = 1, /):
-    '''Compares f-string and str.format approaches.'''
+
+def compare_f_string_and_str_format(num=123.456, width=6, decimals=1, /):
     str_1 = f'{num = :6.1f}'
     print(str_1)
     str_2 = f'{num = :{width}.{decimals}f}'
@@ -10,6 +11,7 @@ def compare_f_string_and_str_format(num = 123.456, width = 6, decimals = 1, /):
     print(str_3)
     str_4 = 'num = {0:{1}.{2}f}'.format(num, width, decimals)
     print(str_4)
+
 
 compare_f_string_and_str_format()
 print()

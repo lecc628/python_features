@@ -1,3 +1,5 @@
+'''Contains examples about help function.'''
+
 
 class Student:
     '''Represents a student.'''
@@ -9,6 +11,7 @@ class Student:
     def show(self) -> None:
         '''Shows the student name and age.'''
         print(f'{self.name = } {self.age = }')
+
 
 # Shows help of Student class.
 help(Student)
